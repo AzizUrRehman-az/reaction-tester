@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+  left: 100px;
+  border-radius: 50%;
+}
+.hidden {
+  display: none;
+}
